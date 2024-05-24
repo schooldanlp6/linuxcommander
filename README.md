@@ -3,6 +3,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/neurobin/shc.svg)](https://github.com/neurobin/shc/network)
 [![GitHub issues](https://img.shields.io/github/issues/neurobin/shc.svg)](https://github.com/neurobin/shc/issues)
 
+## From https://github.com/neurobin/shc/releases/tag/4.0.3 to make sure compatibility is present
+as far as shc goes you only need to install it if you build from source and the binaries you need are arm64 instead of the shipped amd64
+
 # Shell Script Compiler
 
 A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable.
